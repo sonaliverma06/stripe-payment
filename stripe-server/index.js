@@ -31,7 +31,7 @@ app.use(function (req, res, next) {
 
 
 app.get("/", async (req, res) => {
-  res.json("Hello this is stripe setup server.");
+  res.json("Welcome to backend.");
 });
 
 
